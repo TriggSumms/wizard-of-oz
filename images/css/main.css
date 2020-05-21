@@ -1,0 +1,82 @@
+*, *:before, *:after {
+    box-sizing:border-box;
+}
+html{
+    box-sizing:border-box;
+}
+
+
+
+body{
+    background-color: rgb(205, 252, 111);
+    
+}
+
+nav{
+    background-color: salmon; 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: cursive;
+    padding: .2em ;
+}
+nav a{
+    color: rgb(245, 200, 195);
+    margin: .2em 1em 0px 1em;
+}
+nav a:hover{
+    color: white;
+}
+.img-hero{
+width: 100%;
+height: auto;
+overflow: hidden;
+}
+.wrapper {
+    background-color: cornflowerblue;
+    
+}
+h1{
+    text-transform: uppercase;
+    color: goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+}
+h2, h3 {
+color: red;
+
+
+}
+.flex-container{
+    display:flex;
+    height:300px;
+    width: 100%;
+    flex-direction: row;
+    background-color: aquamarine;
+} 
+main{
+    flex: 3;
+    margin: 1em;
+}
+aside{
+    flex: 1;
+    margin: 1em;
+    max-height: 30em;
+    text-overflow:ellipsis ;
+    overflow: scroll;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+footer a{
+    color: goldenrod;
+}
+
+img {
+display: center;
+}
